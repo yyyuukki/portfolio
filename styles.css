@@ -1,0 +1,60 @@
+header{
+  text-align:  center;
+}
+h1{
+  font-size: 100px;
+  line-height: 1;
+ }
+ h2{
+  font-size: 70px;
+  line-height: 1;
+ }
+ .yuki-nav {
+  margin-top: 60px ;
+}
+ .yuki-nav li{
+  margin: 0 20px;
+  font-size: 30px;
+  list-style: none;
+}
+.yuki-nav li a{
+  color: #000000;
+}
+img{
+  width:500px;
+  height:300px;
+}
+.timeline {
+  list-style: none;
+}
+.timeline > li {
+  margin-bottom: 60px;
+}
+
+@media ( min-width : 640px ){
+.timeline > li {
+  overflow: hidden;
+  margin: 0;
+  position: relative;
+}
+timeline-date {
+  width: 110px;
+  float: left;
+  margin-top: 20px;
+}
+.timeline-content {
+  width: 75%;
+  float: left;
+  border-left: 3px #747472 solid;
+  padding-left: 30px;
+}
+.timeline-content:before {
+  width: 12px;
+  height: 12px;
+  background: #000000;
+  position: absolute;
+  left: 106px;
+  top: 24px;
+  border-radius: 100%;
+  }
+}
