@@ -9,7 +9,7 @@ h1{
  yuki-nav {
   margin-top: 60px ;
 }
- .yuki-nav li{
+ yuki-nav li{
   margin: 0 20px;
   font-size: 30px;
   list-style: none;
@@ -28,7 +28,7 @@ timeline > li {
   margin-bottom: 60px;
 }
 
-@media ( min-width : 640px ){
+media ( min-width : 640px ){
 timeline > li {
   overflow: hidden;
   margin: 0;
